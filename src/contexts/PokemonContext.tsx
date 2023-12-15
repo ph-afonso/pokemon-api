@@ -119,16 +119,13 @@ export const PokemonProvider = ({ children }: { children: ReactNode }) => {
 
   const searchPokemon = async (name: string) => {
     if (name.trim() === '') {
-      // Se o input estiver vazio, carrega os 15 primeiros pokémons
       await getPokemons('https://pokeapi.co/api/v2/pokemon?offset=0&limit=1200');
     } else {
-      // Se houver um valor no input, busca o Pokémon pelo nome
       await getPokemonByName(name);
     }
   };
 
   useEffect(() => {
-    // Carrega os 15 primeiros pokémons ao montar o componente
     getPokemons('https://pokeapi.co/api/v2/pokemon?offset=0&limit=1200');
   }, []);
 

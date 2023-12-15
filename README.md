@@ -1,6 +1,6 @@
 # Pokédex App
 
-Este é um aplicativo simples de Pokédex desenvolvido com React, Tailwind e Next.js. Ele consome a API do Pokémon para exibir uma lista de Pokémon e permite a busca por nome para obter informações sobre um Pokémon específico.
+Este é um aplicativo simples de Pokédex desenvolvido com React, Tailwind e Next.js. Ele consome a API do Pokémon para exibir uma lista de Pokémon e permite a busca por nome de um Pokémon específico.
 
 ## Tecnologias Utilizadas
 
